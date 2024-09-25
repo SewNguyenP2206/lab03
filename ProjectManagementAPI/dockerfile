@@ -1,0 +1,29 @@
+FROM mcr.microsoft.com/dotnet/aspnet:8.0.3-jammy-amd64 AS base
+ENV ASPNETCORE_ENVIRONMENT=Development
+EXPOSE 8080
+EXPOSE 80
+
+FROM mcr.microsoft.com/dotnet/sdk:8.0-jammy-amd64 AS build
+WORKDIR /src
+RUN mkdir api Repositories BussinessObjects DataAccess
+COPY ["ProjectManagementAPI/ProjectManagementAPI.csproj", "/src/api"]
+COPY ["DataAccess/DataAccess.csproj", "/src/DataAccess"]
+COPY ["Repositories/Repositories.csproj", "/src/Repositories"]
+COPY ["BussinessObjects/BussinessObjects.csproj", "/src/BussinessObjects"]
+RUN dotnet restore "/src/api/ProjectManagementAPI.csproj"
+COPY ["ProjectManagementAPI/", "/src/api"]
+COPY ["DataAccess", "/src/DataAccess"]
+COPY ["Repositories/", "/src/Repositories"]
+COPY ["BussinessObjects/", "/src/BussinessObjects"]
+
+WORKDIR /src/api
+RUN dotnet build "ProjectManagementAPI.csproj" --configuration Release --runtime linux-x64 -o ./build
+
+FROM build as publish
+WORKDIR /src/api
+RUN dotnet publish "ProjectManagementAPI.csproj" -c Release -o /app/out
+
+FROM base AS final
+COPY --from=publish /app/out .
+	
+ENTRYPOINT ["dotnet", "ProjectManagementAPI.dll"]
