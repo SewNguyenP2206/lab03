@@ -3138,11 +3138,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Phu\\Desktop\\Lab03_IdetityAjax ASP.NETCoreWebAPI\\DataAccess\\DataAccess.csproj",
+      "projectUniqueName": "C:\\Users\\Phu\\Desktop\\Lab03\\lab03\\DataAccess\\DataAccess.csproj",
       "projectName": "DataAccess",
-      "projectPath": "C:\\Users\\Phu\\Desktop\\Lab03_IdetityAjax ASP.NETCoreWebAPI\\DataAccess\\DataAccess.csproj",
+      "projectPath": "C:\\Users\\Phu\\Desktop\\Lab03\\lab03\\DataAccess\\DataAccess.csproj",
       "packagesPath": "C:\\Users\\Phu\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Phu\\Desktop\\Lab03_IdetityAjax ASP.NETCoreWebAPI\\DataAccess\\obj\\",
+      "outputPath": "C:\\Users\\Phu\\Desktop\\Lab03\\lab03\\DataAccess\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Phu\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -3159,8 +3159,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\Phu\\Desktop\\Lab03_IdetityAjax ASP.NETCoreWebAPI\\BussinessObjects\\BussinessObjects.csproj": {
-              "projectPath": "C:\\Users\\Phu\\Desktop\\Lab03_IdetityAjax ASP.NETCoreWebAPI\\BussinessObjects\\BussinessObjects.csproj"
+            "C:\\Users\\Phu\\Desktop\\Lab03\\lab03\\BussinessObjects\\BussinessObjects.csproj": {
+              "projectPath": "C:\\Users\\Phu\\Desktop\\Lab03\\lab03\\BussinessObjects\\BussinessObjects.csproj"
             }
           }
         }

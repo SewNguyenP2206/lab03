@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Tzao/oGH8deVwGkO+PlszTCV2u3AXPMH85/TPZ4xb9kj1P5u1GC6qlVY9Z/0mKy9HxqeAZH7JzkxkEZbdOmdXw==",
+  "dgSpecHash": "sn0EtwQrxrwvKxAPCwz+Fqy5ZsopQZPWXaZp2k1oUx0VpTQvZavsfDYXCBB/UYjWanG7pbTd8P7CauAX3QKjOA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Phu\\Desktop\\Lab03_IdetityAjax ASP.NETCoreWebAPI\\DataAccess\\DataAccess.csproj",
+  "projectFilePath": "C:\\Users\\Phu\\Desktop\\Lab03\\lab03\\DataAccess\\DataAccess.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Phu\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\Phu\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

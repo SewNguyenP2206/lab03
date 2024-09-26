@@ -9,7 +9,7 @@ namespace DataAccess
 {
     public class CategoryDAO
     {
-
+        //..
         public static List<Category> GetCategories()
         {
             var listCategories = new List<Category>();

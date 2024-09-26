@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "G/IkQXAcsrISIHRLCb+OFIUJvWPWVZ8w/USywhiDdGWvwDCFkXlRWsai4PqnIDe2BL7DH+KA0LB2NwATi1V+1w==",
+  "dgSpecHash": "kDTmU+JYO0Jf6XJdojE9cL77CjUI3x8vRWT+0MvSyxrH8/1v+AfiijoSpPapFmO34YkWIZpDW/QrCtao/YnG1A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Phu\\Desktop\\Lab03_IdetityAjax ASP.NETCoreWebAPI\\ProjectManagementAPI\\ProjectManagementAPI.csproj",
+  "projectFilePath": "C:\\Users\\Phu\\Desktop\\Lab03\\lab03\\ProjectManagementAPI\\ProjectManagementAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Phu\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\Phu\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
