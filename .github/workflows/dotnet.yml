@@ -46,10 +46,17 @@ jobs:
           
           ssh -o StrictHostKeyChecking=no -i private_key ec2-user@ec2-13-55-97-206.ap-southeast-2.compute.amazonaws.com << EOF
 
+
             sudo yum update -y
             sudo yum install -y docker
-            newgrp docker
             docker --version
+
+
+            sudo usermod -aG docker ec2-user
+            exit
+            su ec2-user
+            docker ps
+
 
             DOCKER_CONFIG=${DOCKER_CONFIG:-$HOME/.docker}
             mkdir -p $DOCKER_CONFIG/cli-plugins
