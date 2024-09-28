@@ -1,4 +1,4 @@
-name: .NET
+name: .NET and Deploy
 
 on:
   push:
@@ -28,17 +28,22 @@ jobs:
     - name: Test
       run: dotnet test --no-build --verbosity normal
 
-    - name: SSH into instance
-      run: |
-        ssh -i ${{ secrets.SSH_PRIVATE_KEY }} ec2-user@ec2-54-206-83-119.ap-southeast-2.compute.amazonaws.com << 'EOF'
-          # Install Git
-          sudo apt-get update
-          sudo apt-get install -y git
+  deploy:
+    name: Deploy to EC2
+    needs: build
+    runs-on: ubuntu-latest
 
-          #Testing
-          whoami
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
 
-          #Test git version
-          git --verion
+      - name: Deploy to EC2 instance
+        env:
+          PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
 
-        EOF
+        run: |
+          echo "$PRIVATE_KEY" > private_key && chmod 600 private_key
+          ssh -o StrictHostKeyChecking=no -i private_key ec2-user@ec2-54-206-83-119.ap-southeast-2.compute.amazonaws.com << EOF
+            sudo apt-get update
+            swhoami          
+          EOF
