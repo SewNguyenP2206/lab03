@@ -43,7 +43,31 @@ jobs:
 
         run: |
           echo "$PRIVATE_KEY" > private_key && chmod 600 private_key
+          
           ssh -o StrictHostKeyChecking=no -i private_key ec2-user@ec2-54-206-83-119.ap-southeast-2.compute.amazonaws.com << EOF
-            sudo apt-get update
-            swhoami          
+
+            sudo yum update -y
+            sudo yum install -y docker
+            newgrp docker
+            docker --version
+
+            DOCKER_CONFIG=${DOCKER_CONFIG:-$HOME/.docker}
+            mkdir -p $DOCKER_CONFIG/cli-plugins
+            curl -SL https://github.com/docker/compose/releases/download/v2.29.6/docker-compose-linux-x86_64 -o $DOCKER_CONFIG/cli-plugins/docker-compose
+            
+            chmod +x $DOCKER_CONFIG/cli-plugins/docker-compose
+
+            docker compose version
+
+            sudo yum install git -y
+            git --version
+
+            mkdir Lab03
+            cd Lab03
+            git clone https://github.com/SewNguyenP2206/lab03.git
+
+            cd lab03
+            sudo docker-compose down
+            sudo docker-compose build
+            sudo docker-compose up -d
           EOF
