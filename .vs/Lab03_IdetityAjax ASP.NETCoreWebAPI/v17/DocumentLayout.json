@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\Phu\\Desktop\\Lab03\\lab03\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{3E1B6786-24CE-46F3-BC49-A364DCDE5262}|ProjectManagementAPI\\ProjectManagementAPI.csproj|c:\\users\\phu\\desktop\\lab03\\lab03\\projectmanagementapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{3E1B6786-24CE-46F3-BC49-A364DCDE5262}|ProjectManagementAPI\\ProjectManagementAPI.csproj|solutionrelative:projectmanagementapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{3E1B6786-24CE-46F3-BC49-A364DCDE5262}|ProjectManagementAPI\\ProjectManagementAPI.csproj|c:\\users\\phu\\desktop\\lab03\\lab03\\projectmanagementapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3E1B6786-24CE-46F3-BC49-A364DCDE5262}|ProjectManagementAPI\\ProjectManagementAPI.csproj|solutionrelative:projectmanagementapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -91,10 +95,6 @@
       "RelativeMoniker": "D:0:0:{202CDA33-348A-483B-8558-857D5B3B2226}|BussinessObjects\\BussinessObjects.csproj|solutionrelative:bussinessobjects\\models\\mydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3E1B6786-24CE-46F3-BC49-A364DCDE5262}|ProjectManagementAPI\\ProjectManagementAPI.csproj|c:\\users\\phu\\desktop\\lab03\\lab03\\projectmanagementapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{3E1B6786-24CE-46F3-BC49-A364DCDE5262}|ProjectManagementAPI\\ProjectManagementAPI.csproj|solutionrelative:projectmanagementapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{BF29FE81-FF17-4589-AEF0-326C00B3C225}|Repositories\\Repositories.csproj|c:\\users\\phu\\desktop\\lab03\\lab03\\repositories\\interfaces\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BF29FE81-FF17-4589-AEF0-326C00B3C225}|Repositories\\Repositories.csproj|solutionrelative:repositories\\interfaces\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -106,24 +106,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "UnitOfWorks.AssemblyInfo.cs",
-              "DocumentMoniker": "C:\\Users\\Phu\\Desktop\\Lab03\\lab03\\UnitOfWork\\obj\\Debug\\net8.0\\UnitOfWorks.AssemblyInfo.cs",
-              "RelativeDocumentMoniker": "UnitOfWork\\obj\\Debug\\net8.0\\UnitOfWorks.AssemblyInfo.cs",
-              "ToolTip": "C:\\Users\\Phu\\Desktop\\Lab03\\lab03\\UnitOfWork\\obj\\Debug\\net8.0\\UnitOfWorks.AssemblyInfo.cs",
-              "RelativeToolTip": "UnitOfWork\\obj\\Debug\\net8.0\\UnitOfWorks.AssemblyInfo.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-29T07:15:58.175Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "ProjectManagementAPI",
               "DocumentMoniker": "C:\\Users\\Phu\\Desktop\\Lab03\\lab03\\ProjectManagementAPI\\ProjectManagementAPI.csproj",
               "RelativeDocumentMoniker": "ProjectManagementAPI\\ProjectManagementAPI.csproj",
@@ -136,20 +123,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Phu\\Desktop\\Lab03\\lab03\\ProjectManagementAPI\\Program.cs",
               "RelativeDocumentMoniker": "ProjectManagementAPI\\Program.cs",
               "ToolTip": "C:\\Users\\Phu\\Desktop\\Lab03\\lab03\\ProjectManagementAPI\\Program.cs",
               "RelativeToolTip": "ProjectManagementAPI\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAsAAAAbAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-29T03:03:05.165Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "ProductDAO.cs",
               "DocumentMoniker": "C:\\Users\\Phu\\Desktop\\Lab03\\lab03\\DataAccess\\ProductDAO.cs",
               "RelativeDocumentMoniker": "DataAccess\\ProductDAO.cs",
@@ -162,7 +149,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "MigrationHelper.cs",
               "DocumentMoniker": "C:\\Users\\Phu\\Desktop\\Lab03\\lab03\\ProjectManagementAPI\\Extensions\\MigrationHelper.cs",
               "RelativeDocumentMoniker": "ProjectManagementAPI\\Extensions\\MigrationHelper.cs",
@@ -175,7 +162,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Phu\\Desktop\\Lab03\\lab03\\ProjectManagementAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "ProjectManagementAPI\\appsettings.json",
+              "ToolTip": "C:\\Users\\Phu\\Desktop\\Lab03\\lab03\\ProjectManagementAPI\\appsettings.json",
+              "RelativeToolTip": "ProjectManagementAPI\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAADzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-29T03:16:54.484Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UnitOfWorks.AssemblyInfo.cs",
+              "DocumentMoniker": "C:\\Users\\Phu\\Desktop\\Lab03\\lab03\\UnitOfWork\\obj\\Debug\\net8.0\\UnitOfWorks.AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "UnitOfWork\\obj\\Debug\\net8.0\\UnitOfWorks.AssemblyInfo.cs",
+              "ToolTip": "C:\\Users\\Phu\\Desktop\\Lab03\\lab03\\UnitOfWork\\obj\\Debug\\net8.0\\UnitOfWorks.AssemblyInfo.cs",
+              "RelativeToolTip": "UnitOfWork\\obj\\Debug\\net8.0\\UnitOfWorks.AssemblyInfo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-29T07:15:58.175Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": ".NETCoreApp,Version=v8.0.AssemblyAttributes.cs",
               "DocumentMoniker": "C:\\Users\\Phu\\Desktop\\Lab03\\lab03\\ProjectManagementAPI\\obj\\Debug\\net8.0\\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs",
               "RelativeDocumentMoniker": "ProjectManagementAPI\\obj\\Debug\\net8.0\\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs",
@@ -188,7 +201,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "CategoryController.cs",
               "DocumentMoniker": "C:\\Users\\Phu\\Desktop\\Lab03\\lab03\\ProjectManagementAPI\\Controllers\\CategoryController.cs",
               "RelativeDocumentMoniker": "ProjectManagementAPI\\Controllers\\CategoryController.cs",
@@ -201,7 +214,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "IUnitOfWork.cs",
               "DocumentMoniker": "C:\\Users\\Phu\\Desktop\\Lab03\\lab03\\UnitOfWork\\Interfaces\\IUnitOfWork.cs",
               "RelativeDocumentMoniker": "UnitOfWork\\Interfaces\\IUnitOfWork.cs",
@@ -214,7 +227,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "ProductController.cs",
               "DocumentMoniker": "C:\\Users\\Phu\\Desktop\\Lab03\\lab03\\ProjectManagementAPI\\Controllers\\ProductController.cs",
               "RelativeDocumentMoniker": "ProjectManagementAPI\\Controllers\\ProductController.cs",
@@ -227,7 +240,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "UnitOfWork.cs",
               "DocumentMoniker": "C:\\Users\\Phu\\Desktop\\Lab03\\lab03\\UnitOfWork\\UnitOfWork.cs",
               "RelativeDocumentMoniker": "UnitOfWork\\UnitOfWork.cs",
@@ -240,7 +253,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "CategoryRepository.cs",
               "DocumentMoniker": "C:\\Users\\Phu\\Desktop\\Lab03\\lab03\\Repositories\\CategoryRepository.cs",
               "RelativeDocumentMoniker": "Repositories\\CategoryRepository.cs",
@@ -253,7 +266,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "ProductRepository.cs",
               "DocumentMoniker": "C:\\Users\\Phu\\Desktop\\Lab03\\lab03\\Repositories\\ProductRepository.cs",
               "RelativeDocumentMoniker": "Repositories\\ProductRepository.cs",
@@ -266,7 +279,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "GenericRepository.cs",
               "DocumentMoniker": "C:\\Users\\Phu\\Desktop\\Lab03\\lab03\\Repositories\\GenericRepository.cs",
               "RelativeDocumentMoniker": "Repositories\\GenericRepository.cs",
@@ -279,7 +292,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "ProductUpdateRequest.cs",
               "DocumentMoniker": "C:\\Users\\Phu\\Desktop\\Lab03\\lab03\\BussinessObjects\\DTOs\\ProductUpdateRequest.cs",
               "RelativeDocumentMoniker": "BussinessObjects\\DTOs\\ProductUpdateRequest.cs",
@@ -292,7 +305,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "Product.cs",
               "DocumentMoniker": "C:\\Users\\Phu\\Desktop\\Lab03\\lab03\\BussinessObjects\\Models\\Product.cs",
               "RelativeDocumentMoniker": "BussinessObjects\\Models\\Product.cs",
@@ -305,7 +318,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "IGenericRepository.cs",
               "DocumentMoniker": "C:\\Users\\Phu\\Desktop\\Lab03\\lab03\\Repositories\\Interfaces\\IGenericRepository.cs",
               "RelativeDocumentMoniker": "Repositories\\Interfaces\\IGenericRepository.cs",
@@ -318,7 +331,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "ICategoryRepository.cs",
               "DocumentMoniker": "C:\\Users\\Phu\\Desktop\\Lab03\\lab03\\Repositories\\Interfaces\\ICategoryRepository.cs",
               "RelativeDocumentMoniker": "Repositories\\Interfaces\\ICategoryRepository.cs",
@@ -331,7 +344,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "CategoryCreateRequest.cs",
               "DocumentMoniker": "C:\\Users\\Phu\\Desktop\\Lab03\\lab03\\BussinessObjects\\DTOs\\CategoryCreateRequest.cs",
               "RelativeDocumentMoniker": "BussinessObjects\\DTOs\\CategoryCreateRequest.cs",
@@ -344,7 +357,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "CategoryDAO.cs",
               "DocumentMoniker": "C:\\Users\\Phu\\Desktop\\Lab03\\lab03\\DataAccess\\CategoryDAO.cs",
               "RelativeDocumentMoniker": "DataAccess\\CategoryDAO.cs",
@@ -357,7 +370,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "CategoryUpdateRequest.cs",
               "DocumentMoniker": "C:\\Users\\Phu\\Desktop\\Lab03\\lab03\\BussinessObjects\\DTOs\\CategoryUpdateRequest.cs",
               "RelativeDocumentMoniker": "BussinessObjects\\DTOs\\CategoryUpdateRequest.cs",
@@ -370,7 +383,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "Category.cs",
               "DocumentMoniker": "C:\\Users\\Phu\\Desktop\\Lab03\\lab03\\BussinessObjects\\Models\\Category.cs",
               "RelativeDocumentMoniker": "BussinessObjects\\Models\\Category.cs",
@@ -383,7 +396,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "MyDbContext.cs",
               "DocumentMoniker": "C:\\Users\\Phu\\Desktop\\Lab03\\lab03\\BussinessObjects\\Models\\MyDbContext.cs",
               "RelativeDocumentMoniker": "BussinessObjects\\Models\\MyDbContext.cs",
@@ -392,19 +405,6 @@
               "ViewState": "AQIAAAsAAAAAAAAAAAAxwBgAAAA9AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-29T03:27:17.653Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\Phu\\Desktop\\Lab03\\lab03\\ProjectManagementAPI\\appsettings.json",
-              "RelativeDocumentMoniker": "ProjectManagementAPI\\appsettings.json",
-              "ToolTip": "C:\\Users\\Phu\\Desktop\\Lab03\\lab03\\ProjectManagementAPI\\appsettings.json",
-              "RelativeToolTip": "ProjectManagementAPI\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAABeAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-09-29T03:16:54.484Z",
               "EditorCaption": ""
             },
             {
