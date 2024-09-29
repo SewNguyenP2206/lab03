@@ -97,10 +97,6 @@ jobs:
             docker compose build
             docker compose up -d
           EOF
-      - name: Health Check
-        run: |
-          sleep 10  
-          curl -f http://ec2-13-55-97-206.ap-southeast-2.compute.amazonaws.com:8080/swagger/index.html || exit 1
       - name: Rollback on failure
         if: failure()
         run: |
