@@ -12,6 +12,14 @@ jobs:
 
     steps:
     - uses: actions/checkout@v4
+
+    - name: Cache .NET packages
+      uses: actions/cache@v3
+      with:
+        path: ~/.nuget/packages
+        key: ${{ runner.os }}-nuget-${{ hashFiles('**/*.csproj') }}
+        restore-keys: |
+          ${{ runner.os }}-nuget-
     
     - name: Setup .NET
       uses: actions/setup-dotnet@v4
@@ -46,7 +54,7 @@ jobs:
           ssh -o StrictHostKeyChecking=no -i private_key ec2-user@ec2-13-55-97-206.ap-southeast-2.compute.amazonaws.com << 'EOF'
             
             set -e 
-
+            echo "Install Docker"
             if ! command -v docker &> /dev/null
             then
               echo "Docker not found, installing..."
@@ -57,19 +65,18 @@ jobs:
             else
               echo "Docker is already installed."
             fi
-            
-            docker --version
-
+            echo "Docker Version"
+            docker --version           
+            echo "Grant current user permission"
             sudo usermod -aG docker ec2-user
             newgrp docker
-
+            echo "Download Docker Compose Plugin"
             DOCKER_CONFIG=${DOCKER_CONFIG:-$HOME/.docker}
             mkdir -p $DOCKER_CONFIG/cli-plugins
-            curl -SL https://github.com/docker/compose/releases/download/v2.29.6/docker-compose-linux-x86_64 -o $DOCKER_CONFIG/cli-plugins/docker-compose
-            
+            curl -SL https://github.com/docker/compose/releases/download/v2.29.6/docker-compose-linux-x86_64 -o $DOCKER_CONFIG/cli-plugins/docker-compose 
             chmod +x $DOCKER_CONFIG/cli-plugins/docker-compose
             docker compose version
-
+            echo "Download Git"
             if ! command -v git &> /dev/null
             then
               echo "Git not found, installing..."
@@ -77,18 +84,28 @@ jobs:
             else
               echo "Git is already installed."
             fi
-
             git --version
-
+            echo "Build and publish endpoint"
             mkdir -p Lab03
             cd Lab03
             if [ ! -d "lab03" ]; then
               git clone https://github.com/SewNguyenP2206/lab03.git
-            fi
-            
+            fi          
             cd lab03
             git pull
             docker compose down
             docker compose build
             docker compose up -d
+          EOF
+      - name: Health Check
+        run: |
+          sleep 10  
+          curl -f http://ec2-13-55-97-206.ap-southeast-2.compute.amazonaws.com:8080/swagger/index.html || exit 1
+      - name: Rollback on failure
+        if: failure()
+        run: |
+          ssh -o StrictHostKeyChecking=no -i private_key ec2-user@ec2-13-55-97-206.ap-southeast-2.compute.amazonaws.com << 'EOF'
+            cd Lab03/lab03
+            docker compose down
+            docker compose up -d previous
           EOF
