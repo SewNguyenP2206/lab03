@@ -1,7 +1,10 @@
 using BussinessObjects.Models;
 using controller.Extensions;
 using Microsoft.EntityFrameworkCore;
-
+using Repositories.Interfaces;
+using Repositories;
+using UnitOfWorks.Interfaces;
+using UnitOfWorks;
 namespace ProjectManagementAPI
 {
     public class Program
@@ -25,6 +28,10 @@ namespace ProjectManagementAPI
             // Swagger configuration
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
+            builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
+            builder.Services.AddScoped<IGenericRepository<Product>, GenericRepository<Product>>();
+            builder.Services.AddScoped<IGenericRepository<Category>, GenericRepository<Category>>();
+            builder.Services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
 
             var app = builder.Build();
 

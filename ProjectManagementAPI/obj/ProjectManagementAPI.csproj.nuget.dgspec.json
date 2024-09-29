@@ -182,8 +182,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Phu\\Desktop\\Lab03\\lab03\\Repositories\\Repositories.csproj": {
-                "projectPath": "C:\\Users\\Phu\\Desktop\\Lab03\\lab03\\Repositories\\Repositories.csproj"
+              "C:\\Users\\Phu\\Desktop\\Lab03\\lab03\\BussinessObjects\\BussinessObjects.csproj": {
+                "projectPath": "C:\\Users\\Phu\\Desktop\\Lab03\\lab03\\BussinessObjects\\BussinessObjects.csproj"
+              },
+              "C:\\Users\\Phu\\Desktop\\Lab03\\lab03\\UnitOfWork\\UnitOfWorks.csproj": {
+                "projectPath": "C:\\Users\\Phu\\Desktop\\Lab03\\lab03\\UnitOfWork\\UnitOfWorks.csproj"
               }
             }
           }
@@ -227,9 +230,17 @@
               "target": "Package",
               "version": "[8.0.0, )"
             },
-            "Swashbuckle.AspNetCore": {
+            "Swashbuckle.AspNetCore.Swagger": {
               "target": "Package",
-              "version": "[6.4.0, )"
+              "version": "[6.8.0, )"
+            },
+            "Swashbuckle.AspNetCore.SwaggerGen": {
+              "target": "Package",
+              "version": "[6.8.0, )"
+            },
+            "Swashbuckle.AspNetCore.SwaggerUI": {
+              "target": "Package",
+              "version": "[6.8.0, )"
             }
           },
           "imports": [
@@ -284,6 +295,73 @@
               },
               "C:\\Users\\Phu\\Desktop\\Lab03\\lab03\\DataAccess\\DataAccess.csproj": {
                 "projectPath": "C:\\Users\\Phu\\Desktop\\Lab03\\lab03\\DataAccess\\DataAccess.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Phu\\Desktop\\Lab03\\lab03\\UnitOfWork\\UnitOfWorks.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Phu\\Desktop\\Lab03\\lab03\\UnitOfWork\\UnitOfWorks.csproj",
+        "projectName": "UnitOfWorks",
+        "projectPath": "C:\\Users\\Phu\\Desktop\\Lab03\\lab03\\UnitOfWork\\UnitOfWorks.csproj",
+        "packagesPath": "C:\\Users\\Phu\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Phu\\Desktop\\Lab03\\lab03\\UnitOfWork\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Phu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\Phu\\Desktop\\Lab03\\lab03\\BussinessObjects\\BussinessObjects.csproj": {
+                "projectPath": "C:\\Users\\Phu\\Desktop\\Lab03\\lab03\\BussinessObjects\\BussinessObjects.csproj"
+              },
+              "C:\\Users\\Phu\\Desktop\\Lab03\\lab03\\Repositories\\Repositories.csproj": {
+                "projectPath": "C:\\Users\\Phu\\Desktop\\Lab03\\lab03\\Repositories\\Repositories.csproj"
               }
             }
           }

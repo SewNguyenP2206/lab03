@@ -13,3 +13,18 @@ C:\Users\Phu\Desktop\Lab03_IdetityAjax ASP.NETCoreWebAPI\BussinessObjects\obj\De
 C:\Users\Phu\Desktop\Lab03_IdetityAjax ASP.NETCoreWebAPI\BussinessObjects\obj\Debug\net8.0\BussinessObjects.pdb
 C:\Users\Phu\Desktop\Lab03_IdetityAjax ASP.NETCoreWebAPI\BussinessObjects\obj\Debug\net8.0\BussinessObjects.genruntimeconfig.cache
 C:\Users\Phu\Desktop\Lab03_IdetityAjax ASP.NETCoreWebAPI\BussinessObjects\obj\Debug\net8.0\ref\BussinessObjects.dll
+C:\Users\Phu\Desktop\Lab03\lab03\BussinessObjects\bin\Debug\net8.0\BussinessObjects.deps.json
+C:\Users\Phu\Desktop\Lab03\lab03\BussinessObjects\bin\Debug\net8.0\BussinessObjects.runtimeconfig.json
+C:\Users\Phu\Desktop\Lab03\lab03\BussinessObjects\bin\Debug\net8.0\BussinessObjects.dll
+C:\Users\Phu\Desktop\Lab03\lab03\BussinessObjects\bin\Debug\net8.0\BussinessObjects.pdb
+C:\Users\Phu\Desktop\Lab03\lab03\BussinessObjects\obj\Debug\net8.0\BussinessObjects.csproj.AssemblyReference.cache
+C:\Users\Phu\Desktop\Lab03\lab03\BussinessObjects\obj\Debug\net8.0\BussinessObjects.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Phu\Desktop\Lab03\lab03\BussinessObjects\obj\Debug\net8.0\BussinessObjects.AssemblyInfoInputs.cache
+C:\Users\Phu\Desktop\Lab03\lab03\BussinessObjects\obj\Debug\net8.0\BussinessObjects.AssemblyInfo.cs
+C:\Users\Phu\Desktop\Lab03\lab03\BussinessObjects\obj\Debug\net8.0\BussinessObjects.csproj.CoreCompileInputs.cache
+C:\Users\Phu\Desktop\Lab03\lab03\BussinessObjects\obj\Debug\net8.0\BussinessObjects.sourcelink.json
+C:\Users\Phu\Desktop\Lab03\lab03\BussinessObjects\obj\Debug\net8.0\BussinessObjects.dll
+C:\Users\Phu\Desktop\Lab03\lab03\BussinessObjects\obj\Debug\net8.0\refint\BussinessObjects.dll
+C:\Users\Phu\Desktop\Lab03\lab03\BussinessObjects\obj\Debug\net8.0\BussinessObjects.pdb
+C:\Users\Phu\Desktop\Lab03\lab03\BussinessObjects\obj\Debug\net8.0\BussinessObjects.genruntimeconfig.cache
+C:\Users\Phu\Desktop\Lab03\lab03\BussinessObjects\obj\Debug\net8.0\ref\BussinessObjects.dll

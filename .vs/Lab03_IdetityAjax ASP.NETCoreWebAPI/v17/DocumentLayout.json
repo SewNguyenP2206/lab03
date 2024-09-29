@@ -1,22 +1,102 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Phu\\Desktop\\Lab03_IdetityAjax ASP.NETCoreWebAPI\\",
+  "WorkspaceRootPath": "C:\\Users\\Phu\\Desktop\\Lab03\\lab03\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3E1B6786-24CE-46F3-BC49-A364DCDE5262}|ProjectManagementAPI\\ProjectManagementAPI.csproj|c:\\users\\phu\\desktop\\lab03_idetityajax asp.netcorewebapi\\projectmanagementapi\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{3E1B6786-24CE-46F3-BC49-A364DCDE5262}|ProjectManagementAPI\\ProjectManagementAPI.csproj|solutionrelative:projectmanagementapi\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{3E1B6786-24CE-46F3-BC49-A364DCDE5262}|ProjectManagementAPI\\ProjectManagementAPI.csproj|c:\\users\\phu\\desktop\\lab03\\lab03\\projectmanagementapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E1B6786-24CE-46F3-BC49-A364DCDE5262}|ProjectManagementAPI\\ProjectManagementAPI.csproj|solutionrelative:projectmanagementapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{202CDA33-348A-483B-8558-857D5B3B2226}|BussinessObjects\\BussinessObjects.csproj|C:\\Users\\Phu\\Desktop\\Lab03_IdetityAjax ASP.NETCoreWebAPI\\bussinessobjects\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{529219E5-0481-4BC3-8028-F291B4DB30FF}|UnitOfWork\\UnitOfWorks.csproj|c:\\users\\phu\\desktop\\lab03\\lab03\\unitofwork\\obj\\debug\\net8.0\\unitofworks.assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{529219E5-0481-4BC3-8028-F291B4DB30FF}|UnitOfWork\\UnitOfWorks.csproj|solutionrelative:unitofwork\\obj\\debug\\net8.0\\unitofworks.assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E1B6786-24CE-46F3-BC49-A364DCDE5262}|ProjectManagementAPI\\ProjectManagementAPI.csproj|c:\\users\\phu\\desktop\\lab03\\lab03\\projectmanagementapi\\projectmanagementapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{3E1B6786-24CE-46F3-BC49-A364DCDE5262}|ProjectManagementAPI\\ProjectManagementAPI.csproj|solutionrelative:projectmanagementapi\\projectmanagementapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F67D64A3-2285-48F0-AAAF-E4FCB6F1CD61}|DataAccess\\DataAccess.csproj|c:\\users\\phu\\desktop\\lab03\\lab03\\dataaccess\\productdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F67D64A3-2285-48F0-AAAF-E4FCB6F1CD61}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\productdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E1B6786-24CE-46F3-BC49-A364DCDE5262}|ProjectManagementAPI\\ProjectManagementAPI.csproj|c:\\users\\phu\\desktop\\lab03\\lab03\\projectmanagementapi\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E1B6786-24CE-46F3-BC49-A364DCDE5262}|ProjectManagementAPI\\ProjectManagementAPI.csproj|solutionrelative:projectmanagementapi\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E1B6786-24CE-46F3-BC49-A364DCDE5262}|ProjectManagementAPI\\ProjectManagementAPI.csproj|c:\\users\\phu\\desktop\\lab03\\lab03\\projectmanagementapi\\extensions\\migrationhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E1B6786-24CE-46F3-BC49-A364DCDE5262}|ProjectManagementAPI\\ProjectManagementAPI.csproj|solutionrelative:projectmanagementapi\\extensions\\migrationhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E1B6786-24CE-46F3-BC49-A364DCDE5262}|ProjectManagementAPI\\ProjectManagementAPI.csproj|c:\\users\\phu\\desktop\\lab03\\lab03\\projectmanagementapi\\obj\\debug\\net8.0\\.netcoreapp,version=v8.0.assemblyattributes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E1B6786-24CE-46F3-BC49-A364DCDE5262}|ProjectManagementAPI\\ProjectManagementAPI.csproj|solutionrelative:projectmanagementapi\\obj\\debug\\net8.0\\.netcoreapp,version=v8.0.assemblyattributes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E1B6786-24CE-46F3-BC49-A364DCDE5262}|ProjectManagementAPI\\ProjectManagementAPI.csproj|c:\\users\\phu\\desktop\\lab03\\lab03\\projectmanagementapi\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E1B6786-24CE-46F3-BC49-A364DCDE5262}|ProjectManagementAPI\\ProjectManagementAPI.csproj|solutionrelative:projectmanagementapi\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{529219E5-0481-4BC3-8028-F291B4DB30FF}|UnitOfWork\\UnitOfWork.csproj|c:\\users\\phu\\desktop\\lab03\\lab03\\unitofwork\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{529219E5-0481-4BC3-8028-F291B4DB30FF}|UnitOfWork\\UnitOfWork.csproj|solutionrelative:unitofwork\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{529219E5-0481-4BC3-8028-F291B4DB30FF}|UnitOfWork\\UnitOfWork.csproj|c:\\users\\phu\\desktop\\lab03\\lab03\\unitofwork\\interfaces\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{529219E5-0481-4BC3-8028-F291B4DB30FF}|UnitOfWork\\UnitOfWork.csproj|solutionrelative:unitofwork\\interfaces\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF29FE81-FF17-4589-AEF0-326C00B3C225}|Repositories\\Repositories.csproj|c:\\users\\phu\\desktop\\lab03\\lab03\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF29FE81-FF17-4589-AEF0-326C00B3C225}|Repositories\\Repositories.csproj|solutionrelative:repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{202CDA33-348A-483B-8558-857D5B3B2226}|BussinessObjects\\BussinessObjects.csproj|c:\\users\\phu\\desktop\\lab03\\lab03\\bussinessobjects\\dtos\\productupdaterequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{202CDA33-348A-483B-8558-857D5B3B2226}|BussinessObjects\\BussinessObjects.csproj|solutionrelative:bussinessobjects\\dtos\\productupdaterequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{202CDA33-348A-483B-8558-857D5B3B2226}|BussinessObjects\\BussinessObjects.csproj|c:\\users\\phu\\desktop\\lab03\\lab03\\bussinessobjects\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{202CDA33-348A-483B-8558-857D5B3B2226}|BussinessObjects\\BussinessObjects.csproj|solutionrelative:bussinessobjects\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{202CDA33-348A-483B-8558-857D5B3B2226}|BussinessObjects\\BussinessObjects.csproj|C:\\Users\\Phu\\Desktop\\Lab03_IdetityAjax ASP.NETCoreWebAPI\\bussinessobjects\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BF29FE81-FF17-4589-AEF0-326C00B3C225}|Repositories\\Repositories.csproj|c:\\users\\phu\\desktop\\lab03\\lab03\\repositories\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF29FE81-FF17-4589-AEF0-326C00B3C225}|Repositories\\Repositories.csproj|solutionrelative:repositories\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF29FE81-FF17-4589-AEF0-326C00B3C225}|Repositories\\Repositories.csproj|c:\\users\\phu\\desktop\\lab03\\lab03\\repositories\\interfaces\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF29FE81-FF17-4589-AEF0-326C00B3C225}|Repositories\\Repositories.csproj|solutionrelative:repositories\\interfaces\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF29FE81-FF17-4589-AEF0-326C00B3C225}|Repositories\\Repositories.csproj|c:\\users\\phu\\desktop\\lab03\\lab03\\repositories\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF29FE81-FF17-4589-AEF0-326C00B3C225}|Repositories\\Repositories.csproj|solutionrelative:repositories\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF29FE81-FF17-4589-AEF0-326C00B3C225}|Repositories\\Repositories.csproj|c:\\users\\phu\\desktop\\lab03\\lab03\\repositories\\interfaces\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF29FE81-FF17-4589-AEF0-326C00B3C225}|Repositories\\Repositories.csproj|solutionrelative:repositories\\interfaces\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{202CDA33-348A-483B-8558-857D5B3B2226}|BussinessObjects\\BussinessObjects.csproj|c:\\users\\phu\\desktop\\lab03\\lab03\\bussinessobjects\\dtos\\categoryupdaterequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{202CDA33-348A-483B-8558-857D5B3B2226}|BussinessObjects\\BussinessObjects.csproj|solutionrelative:bussinessobjects\\dtos\\categoryupdaterequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{202CDA33-348A-483B-8558-857D5B3B2226}|BussinessObjects\\BussinessObjects.csproj|c:\\users\\phu\\desktop\\lab03\\lab03\\bussinessobjects\\dtos\\categorycreaterequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{202CDA33-348A-483B-8558-857D5B3B2226}|BussinessObjects\\BussinessObjects.csproj|solutionrelative:bussinessobjects\\dtos\\categorycreaterequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{202CDA33-348A-483B-8558-857D5B3B2226}|BussinessObjects\\BussinessObjects.csproj|c:\\users\\phu\\desktop\\lab03\\lab03\\bussinessobjects\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{202CDA33-348A-483B-8558-857D5B3B2226}|BussinessObjects\\BussinessObjects.csproj|solutionrelative:bussinessobjects\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{202CDA33-348A-483B-8558-857D5B3B2226}|BussinessObjects\\BussinessObjects.csproj|C:\\Users\\Phu\\Desktop\\Lab03_IdetityAjax ASP.NETCoreWebAPI\\bussinessobjects\\models\\mydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F67D64A3-2285-48F0-AAAF-E4FCB6F1CD61}|DataAccess\\DataAccess.csproj|c:\\users\\phu\\desktop\\lab03\\lab03\\dataaccess\\categorydao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F67D64A3-2285-48F0-AAAF-E4FCB6F1CD61}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\categorydao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{202CDA33-348A-483B-8558-857D5B3B2226}|BussinessObjects\\BussinessObjects.csproj|c:\\users\\phu\\desktop\\lab03\\lab03\\bussinessobjects\\models\\mydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{202CDA33-348A-483B-8558-857D5B3B2226}|BussinessObjects\\BussinessObjects.csproj|solutionrelative:bussinessobjects\\models\\mydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E1B6786-24CE-46F3-BC49-A364DCDE5262}|ProjectManagementAPI\\ProjectManagementAPI.csproj|c:\\users\\phu\\desktop\\lab03\\lab03\\projectmanagementapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{3E1B6786-24CE-46F3-BC49-A364DCDE5262}|ProjectManagementAPI\\ProjectManagementAPI.csproj|solutionrelative:projectmanagementapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF29FE81-FF17-4589-AEF0-326C00B3C225}|Repositories\\Repositories.csproj|c:\\users\\phu\\desktop\\lab03\\lab03\\repositories\\interfaces\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF29FE81-FF17-4589-AEF0-326C00B3C225}|Repositories\\Repositories.csproj|solutionrelative:repositories\\interfaces\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,56 +106,319 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "dockerfile",
-              "DocumentMoniker": "C:\\Users\\Phu\\Desktop\\Lab03_IdetityAjax ASP.NETCoreWebAPI\\ProjectManagementAPI\\dockerfile",
-              "RelativeDocumentMoniker": "ProjectManagementAPI\\dockerfile",
-              "ToolTip": "C:\\Users\\Phu\\Desktop\\Lab03_IdetityAjax ASP.NETCoreWebAPI\\ProjectManagementAPI\\dockerfile",
-              "RelativeToolTip": "ProjectManagementAPI\\dockerfile",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-09-24T14:35:48.043Z",
+              "DocumentIndex": 1,
+              "Title": "UnitOfWorks.AssemblyInfo.cs",
+              "DocumentMoniker": "C:\\Users\\Phu\\Desktop\\Lab03\\lab03\\UnitOfWork\\obj\\Debug\\net8.0\\UnitOfWorks.AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "UnitOfWork\\obj\\Debug\\net8.0\\UnitOfWorks.AssemblyInfo.cs",
+              "ToolTip": "C:\\Users\\Phu\\Desktop\\Lab03\\lab03\\UnitOfWork\\obj\\Debug\\net8.0\\UnitOfWorks.AssemblyInfo.cs",
+              "RelativeToolTip": "UnitOfWork\\obj\\Debug\\net8.0\\UnitOfWorks.AssemblyInfo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-29T07:15:58.175Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Category.cs",
-              "DocumentMoniker": "C:\\Users\\Phu\\Desktop\\Lab03_IdetityAjax ASP.NETCoreWebAPI\\BussinessObjects\\Models\\Category.cs",
-              "RelativeDocumentMoniker": "BussinessObjects\\Models\\Category.cs",
-              "ToolTip": "C:\\Users\\Phu\\Desktop\\Lab03_IdetityAjax ASP.NETCoreWebAPI\\BussinessObjects\\Models\\Category.cs",
-              "RelativeToolTip": "BussinessObjects\\Models\\Category.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-24T14:33:54.017Z"
+              "Title": "ProjectManagementAPI",
+              "DocumentMoniker": "C:\\Users\\Phu\\Desktop\\Lab03\\lab03\\ProjectManagementAPI\\ProjectManagementAPI.csproj",
+              "RelativeDocumentMoniker": "ProjectManagementAPI\\ProjectManagementAPI.csproj",
+              "ToolTip": "C:\\Users\\Phu\\Desktop\\Lab03\\lab03\\ProjectManagementAPI\\ProjectManagementAPI.csproj",
+              "RelativeToolTip": "ProjectManagementAPI\\ProjectManagementAPI.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-09-29T07:06:14.172Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Product.cs",
-              "DocumentMoniker": "C:\\Users\\Phu\\Desktop\\Lab03_IdetityAjax ASP.NETCoreWebAPI\\BussinessObjects\\Models\\Product.cs",
-              "RelativeDocumentMoniker": "BussinessObjects\\Models\\Product.cs",
-              "ToolTip": "C:\\Users\\Phu\\Desktop\\Lab03_IdetityAjax ASP.NETCoreWebAPI\\BussinessObjects\\Models\\Product.cs",
-              "RelativeToolTip": "BussinessObjects\\Models\\Product.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Phu\\Desktop\\Lab03\\lab03\\ProjectManagementAPI\\Program.cs",
+              "RelativeDocumentMoniker": "ProjectManagementAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\Phu\\Desktop\\Lab03\\lab03\\ProjectManagementAPI\\Program.cs",
+              "RelativeToolTip": "ProjectManagementAPI\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAsAAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-24T14:33:53.449Z"
+              "WhenOpened": "2024-09-29T03:03:05.165Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "MyDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\Phu\\Desktop\\Lab03_IdetityAjax ASP.NETCoreWebAPI\\BussinessObjects\\Models\\MyDbContext.cs",
-              "RelativeDocumentMoniker": "BussinessObjects\\Models\\MyDbContext.cs",
-              "ToolTip": "C:\\Users\\Phu\\Desktop\\Lab03_IdetityAjax ASP.NETCoreWebAPI\\BussinessObjects\\Models\\MyDbContext.cs",
-              "RelativeToolTip": "BussinessObjects\\Models\\MyDbContext.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAxwAAAAAAAAAAA",
+              "Title": "ProductDAO.cs",
+              "DocumentMoniker": "C:\\Users\\Phu\\Desktop\\Lab03\\lab03\\DataAccess\\ProductDAO.cs",
+              "RelativeDocumentMoniker": "DataAccess\\ProductDAO.cs",
+              "ToolTip": "C:\\Users\\Phu\\Desktop\\Lab03\\lab03\\DataAccess\\ProductDAO.cs",
+              "RelativeToolTip": "DataAccess\\ProductDAO.cs",
+              "ViewState": "AQIAAEIAAAAAAAAAAAAAAGIAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-24T14:33:45.81Z"
+              "WhenOpened": "2024-09-29T02:45:19.531Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MigrationHelper.cs",
+              "DocumentMoniker": "C:\\Users\\Phu\\Desktop\\Lab03\\lab03\\ProjectManagementAPI\\Extensions\\MigrationHelper.cs",
+              "RelativeDocumentMoniker": "ProjectManagementAPI\\Extensions\\MigrationHelper.cs",
+              "ToolTip": "C:\\Users\\Phu\\Desktop\\Lab03\\lab03\\ProjectManagementAPI\\Extensions\\MigrationHelper.cs",
+              "RelativeToolTip": "ProjectManagementAPI\\Extensions\\MigrationHelper.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-29T07:08:12.82Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": ".NETCoreApp,Version=v8.0.AssemblyAttributes.cs",
+              "DocumentMoniker": "C:\\Users\\Phu\\Desktop\\Lab03\\lab03\\ProjectManagementAPI\\obj\\Debug\\net8.0\\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs",
+              "RelativeDocumentMoniker": "ProjectManagementAPI\\obj\\Debug\\net8.0\\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs",
+              "ToolTip": "C:\\Users\\Phu\\Desktop\\Lab03\\lab03\\ProjectManagementAPI\\obj\\Debug\\net8.0\\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs",
+              "RelativeToolTip": "ProjectManagementAPI\\obj\\Debug\\net8.0\\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-29T07:04:44.365Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "C:\\Users\\Phu\\Desktop\\Lab03\\lab03\\ProjectManagementAPI\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "ProjectManagementAPI\\Controllers\\CategoryController.cs",
+              "ToolTip": "C:\\Users\\Phu\\Desktop\\Lab03\\lab03\\ProjectManagementAPI\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "ProjectManagementAPI\\Controllers\\CategoryController.cs",
+              "ViewState": "AQIAADQAAAAAAAAAAAAkwAsAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-29T03:05:15.67Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IUnitOfWork.cs",
+              "DocumentMoniker": "C:\\Users\\Phu\\Desktop\\Lab03\\lab03\\UnitOfWork\\Interfaces\\IUnitOfWork.cs",
+              "RelativeDocumentMoniker": "UnitOfWork\\Interfaces\\IUnitOfWork.cs",
+              "ToolTip": "C:\\Users\\Phu\\Desktop\\Lab03\\lab03\\UnitOfWork\\Interfaces\\IUnitOfWork.cs",
+              "RelativeToolTip": "UnitOfWork\\Interfaces\\IUnitOfWork.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-29T06:31:11.187Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\Phu\\Desktop\\Lab03\\lab03\\ProjectManagementAPI\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "ProjectManagementAPI\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\Phu\\Desktop\\Lab03\\lab03\\ProjectManagementAPI\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "ProjectManagementAPI\\Controllers\\ProductController.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAA0AAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-29T02:59:30.367Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UnitOfWork.cs",
+              "DocumentMoniker": "C:\\Users\\Phu\\Desktop\\Lab03\\lab03\\UnitOfWork\\UnitOfWork.cs",
+              "RelativeDocumentMoniker": "UnitOfWork\\UnitOfWork.cs",
+              "ToolTip": "C:\\Users\\Phu\\Desktop\\Lab03\\lab03\\UnitOfWork\\UnitOfWork.cs",
+              "RelativeToolTip": "UnitOfWork\\UnitOfWork.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAxwBcAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-29T06:32:27.431Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "CategoryRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Phu\\Desktop\\Lab03\\lab03\\Repositories\\CategoryRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\CategoryRepository.cs",
+              "ToolTip": "C:\\Users\\Phu\\Desktop\\Lab03\\lab03\\Repositories\\CategoryRepository.cs",
+              "RelativeToolTip": "Repositories\\CategoryRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAkAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-29T02:38:59.816Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ProductRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Phu\\Desktop\\Lab03\\lab03\\Repositories\\ProductRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\ProductRepository.cs",
+              "ToolTip": "C:\\Users\\Phu\\Desktop\\Lab03\\lab03\\Repositories\\ProductRepository.cs",
+              "RelativeToolTip": "Repositories\\ProductRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-29T02:42:22.489Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "GenericRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Phu\\Desktop\\Lab03\\lab03\\Repositories\\GenericRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\GenericRepository.cs",
+              "ToolTip": "C:\\Users\\Phu\\Desktop\\Lab03\\lab03\\Repositories\\GenericRepository.cs",
+              "RelativeToolTip": "Repositories\\GenericRepository.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAAAYwEQAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-29T02:52:28.54Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ProductUpdateRequest.cs",
+              "DocumentMoniker": "C:\\Users\\Phu\\Desktop\\Lab03\\lab03\\BussinessObjects\\DTOs\\ProductUpdateRequest.cs",
+              "RelativeDocumentMoniker": "BussinessObjects\\DTOs\\ProductUpdateRequest.cs",
+              "ToolTip": "C:\\Users\\Phu\\Desktop\\Lab03\\lab03\\BussinessObjects\\DTOs\\ProductUpdateRequest.cs",
+              "RelativeToolTip": "BussinessObjects\\DTOs\\ProductUpdateRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-29T04:09:40.052Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\Phu\\Desktop\\Lab03\\lab03\\BussinessObjects\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "BussinessObjects\\Models\\Product.cs",
+              "ToolTip": "C:\\Users\\Phu\\Desktop\\Lab03\\lab03\\BussinessObjects\\Models\\Product.cs",
+              "RelativeToolTip": "BussinessObjects\\Models\\Product.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-29T04:10:16.291Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "IGenericRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Phu\\Desktop\\Lab03\\lab03\\Repositories\\Interfaces\\IGenericRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\Interfaces\\IGenericRepository.cs",
+              "ToolTip": "C:\\Users\\Phu\\Desktop\\Lab03\\lab03\\Repositories\\Interfaces\\IGenericRepository.cs",
+              "RelativeToolTip": "Repositories\\Interfaces\\IGenericRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-29T02:52:06.416Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ICategoryRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Phu\\Desktop\\Lab03\\lab03\\Repositories\\Interfaces\\ICategoryRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\Interfaces\\ICategoryRepository.cs",
+              "ToolTip": "C:\\Users\\Phu\\Desktop\\Lab03\\lab03\\Repositories\\Interfaces\\ICategoryRepository.cs",
+              "RelativeToolTip": "Repositories\\Interfaces\\ICategoryRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-29T02:38:20.139Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "CategoryCreateRequest.cs",
+              "DocumentMoniker": "C:\\Users\\Phu\\Desktop\\Lab03\\lab03\\BussinessObjects\\DTOs\\CategoryCreateRequest.cs",
+              "RelativeDocumentMoniker": "BussinessObjects\\DTOs\\CategoryCreateRequest.cs",
+              "ToolTip": "C:\\Users\\Phu\\Desktop\\Lab03\\lab03\\BussinessObjects\\DTOs\\CategoryCreateRequest.cs",
+              "RelativeToolTip": "BussinessObjects\\DTOs\\CategoryCreateRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-29T03:05:50.719Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "CategoryDAO.cs",
+              "DocumentMoniker": "C:\\Users\\Phu\\Desktop\\Lab03\\lab03\\DataAccess\\CategoryDAO.cs",
+              "RelativeDocumentMoniker": "DataAccess\\CategoryDAO.cs",
+              "ToolTip": "C:\\Users\\Phu\\Desktop\\Lab03\\lab03\\DataAccess\\CategoryDAO.cs",
+              "RelativeToolTip": "DataAccess\\CategoryDAO.cs",
+              "ViewState": "AQIAAEMAAAAAAAAAAAAkwFcAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-29T02:45:07.914Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "CategoryUpdateRequest.cs",
+              "DocumentMoniker": "C:\\Users\\Phu\\Desktop\\Lab03\\lab03\\BussinessObjects\\DTOs\\CategoryUpdateRequest.cs",
+              "RelativeDocumentMoniker": "BussinessObjects\\DTOs\\CategoryUpdateRequest.cs",
+              "ToolTip": "C:\\Users\\Phu\\Desktop\\Lab03\\lab03\\BussinessObjects\\DTOs\\CategoryUpdateRequest.cs",
+              "RelativeToolTip": "BussinessObjects\\DTOs\\CategoryUpdateRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-29T03:49:59.636Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\Phu\\Desktop\\Lab03\\lab03\\BussinessObjects\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "BussinessObjects\\Models\\Category.cs",
+              "ToolTip": "C:\\Users\\Phu\\Desktop\\Lab03\\lab03\\BussinessObjects\\Models\\Category.cs",
+              "RelativeToolTip": "BussinessObjects\\Models\\Category.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-29T03:50:11.496Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "MyDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Phu\\Desktop\\Lab03\\lab03\\BussinessObjects\\Models\\MyDbContext.cs",
+              "RelativeDocumentMoniker": "BussinessObjects\\Models\\MyDbContext.cs",
+              "ToolTip": "C:\\Users\\Phu\\Desktop\\Lab03\\lab03\\BussinessObjects\\Models\\MyDbContext.cs",
+              "RelativeToolTip": "BussinessObjects\\Models\\MyDbContext.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAxwBgAAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-29T03:27:17.653Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Phu\\Desktop\\Lab03\\lab03\\ProjectManagementAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "ProjectManagementAPI\\appsettings.json",
+              "ToolTip": "C:\\Users\\Phu\\Desktop\\Lab03\\lab03\\ProjectManagementAPI\\appsettings.json",
+              "RelativeToolTip": "ProjectManagementAPI\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAABeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-29T03:16:54.484Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "IProductRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Phu\\Desktop\\Lab03\\lab03\\Repositories\\Interfaces\\IProductRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\Interfaces\\IProductRepository.cs",
+              "ToolTip": "C:\\Users\\Phu\\Desktop\\Lab03\\lab03\\Repositories\\Interfaces\\IProductRepository.cs",
+              "RelativeToolTip": "Repositories\\Interfaces\\IProductRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-29T02:38:21.661Z",
+              "EditorCaption": ""
             }
           ]
         }
