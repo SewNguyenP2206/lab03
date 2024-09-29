@@ -87,7 +87,8 @@ jobs:
             fi
             
             cd lab03
+            git pull
             docker compose down
             docker compose build
-            docker compose up 
+            docker compose up -d
           EOF
