@@ -5,14 +5,16 @@ EXPOSE 80
 
 FROM mcr.microsoft.com/dotnet/sdk:8.0-jammy-amd64 AS build
 WORKDIR /src
-RUN mkdir api Repositories BussinessObjects DataAccess
+RUN mkdir api Repositories BussinessObjects DataAccess UnitOfWorks
 COPY ["ProjectManagementAPI/ProjectManagementAPI.csproj", "/src/api"]
+COPY ["UnitOfWorks/UnitOfWorks.csproj", "/src/UnitOfWorks"]
 COPY ["DataAccess/DataAccess.csproj", "/src/DataAccess"]
 COPY ["Repositories/Repositories.csproj", "/src/Repositories"]
 COPY ["BussinessObjects/BussinessObjects.csproj", "/src/BussinessObjects"]
 RUN dotnet restore "/src/api/ProjectManagementAPI.csproj"
 COPY ["ProjectManagementAPI/", "/src/api"]
 COPY ["DataAccess", "/src/DataAccess"]
+COPY ["UnitOfWorks", "/src/UnitOfWorks"]
 COPY ["Repositories/", "/src/Repositories"]
 COPY ["BussinessObjects/", "/src/BussinessObjects"]
 

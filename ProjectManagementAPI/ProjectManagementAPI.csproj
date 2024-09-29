@@ -25,6 +25,7 @@
 
 	<ItemGroup>
 	  <ProjectReference Include="..\BussinessObjects\BussinessObjects.csproj" />
+	  <ProjectReference Include="..\UnitOfWorks\UnitOfWorks.csproj" />
 	  <ProjectReference Include="..\UnitOfWork\UnitOfWorks.csproj" />
 	</ItemGroup>
 

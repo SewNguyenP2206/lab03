@@ -4642,8 +4642,8 @@
     },
     "UnitOfWorks/1.0.0": {
       "type": "project",
-      "path": "../UnitOfWork/UnitOfWorks.csproj",
-      "msbuildProject": "../UnitOfWork/UnitOfWorks.csproj"
+      "path": "../UnitOfWorks/UnitOfWorks.csproj",
+      "msbuildProject": "../UnitOfWorks/UnitOfWorks.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -4689,6 +4689,9 @@
           "projectReferences": {
             "C:\\Users\\Phu\\Desktop\\Lab03\\lab03\\BussinessObjects\\BussinessObjects.csproj": {
               "projectPath": "C:\\Users\\Phu\\Desktop\\Lab03\\lab03\\BussinessObjects\\BussinessObjects.csproj"
+            },
+            "C:\\Users\\Phu\\Desktop\\Lab03\\lab03\\UnitOfWorks\\UnitOfWorks.csproj": {
+              "projectPath": "C:\\Users\\Phu\\Desktop\\Lab03\\lab03\\UnitOfWorks\\UnitOfWorks.csproj"
             },
             "C:\\Users\\Phu\\Desktop\\Lab03\\lab03\\UnitOfWork\\UnitOfWorks.csproj": {
               "projectPath": "C:\\Users\\Phu\\Desktop\\Lab03\\lab03\\UnitOfWork\\UnitOfWorks.csproj"
